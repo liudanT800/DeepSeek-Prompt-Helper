@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "DeepSeek Prompt Helper",
+    "version": "1.0",
+    "description": "在deepseek的对话界面自动添加prompt",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["*://*.deepseek.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.deepseek.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
