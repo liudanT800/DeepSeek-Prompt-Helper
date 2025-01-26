@@ -1,0 +1,2 @@
+适用deepseek官方web端对话的prompt插入器
+在content.js的第一行修改插入的prompt
