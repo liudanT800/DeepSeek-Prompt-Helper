@@ -1,2 +1,2 @@
 适用deepseek官方web端对话的prompt插入器
-在content.js的第一行修改插入的prompt
+回车输入时会自动将设置好的prompt插入当前内容的最前方
